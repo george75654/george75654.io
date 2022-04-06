@@ -1,0 +1,161 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F1F2F3;
+}
+
+
+
+/******************************************HEADER****************************************************************************/
+
+header{
+	background-color: #F1F2F3;
+	height: 75px;
+	box-shadow: 0px 0px 2px black;
+	position: relative;
+}
+
+
+
+#mybrand{
+	position: absolute;
+	top: 25%;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+
+#headerlinks{
+	float: right;
+	margin-top: 25px;
+}
+
+
+#headerlinks a{
+	color: #007fbc;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+
+}
+
+
+
+
+
+/****************************************************************MAIN************************************************************/
+
+#myphoto img{
+	
+	margin-left: 70px;
+}
+
+#first-slide{
+	margin-top: 50px;
+	background-color: #F1F2F3;
+}
+
+
+#first-slide h1{
+	color: #007fbc;
+	text-align: center;
+}
+
+#first-slide p{
+	text-align: center;
+	margin-top: 200px;
+	width: 60%;
+	font-size: 20px;
+}
+
+
+#second-slide{
+	background-color: #0481bc;
+	height: 300px;
+	width: 100%;
+	padding-top: 40px;
+}
+
+#second-slide h1{
+	color: #A5DCF6;
+	text-align: center;
+
+}
+
+#second-slide p{
+	margin-top: 70px;
+	color: white;
+	text-align: center;
+	width: 75%;
+}
+
+#third-slide{
+	background-color: #F1F2F3;
+	padding-top: 40px;
+	width: 100%;
+}
+
+
+#third-slide h1{
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+
+#skils{
+	width: 75%;
+
+}
+
+#skils ul{
+	padding-top: 35px;
+}
+
+#skils li{
+	width: 20%;
+}
+
+
+.bar{
+	height: 12px;
+	width: 125px;
+	background-color: #CDCDCD;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.ipo-bar{
+	height: 100%;
+	background-color: green;
+	position: absolute;
+	left: 0px;
+	border-radius: 10px;
+}
+
+
+
+
+footer{
+	background-color: #3F3F3F;
+	height: 150px;
+	width: 100%;
+	padding-top: 50px;
+}
+
+footer h1{
+	text-align: center;
+}
+
+
+.sect{
+  margin-bottom: 35px;
+}
+
